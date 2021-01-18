@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CRM</title>
+  
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="css/mainstyle.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.css">
+  <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.css">
+  <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.css">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #65b312">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html" style="background-color: white;">
+        <div class="sidebar-brand-icon rotate-n-15">
+        </div>
+        <div class="sidebar-brand-text mx-3"><img src="img/logo.png" alt="logo" width="180px"; height="60px";></div>
+      </a>
+
+      <!-- Divider -->
+      
+
+
+
+      <!-- Divider -->
+      
+
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      
+      <div>
+
+      <ul class="list-inline text-center listing" style="color: #ffffff;">
+       <hr>
+        <a href="dashboard.html"><li class="">Dashboard</li></a>
+        <hr />
+        <a href="security.html"><li>Security</li></a>
+        <hr />
+        <a href="clients-data.html"><li>Client Data</li></a>
+        <hr />
+        <a href="clients-lead.html"><li>Client Leads</li></a>
+        <hr />
+        <a href="staffdata.html"><li>Staff Data</li></a>
+        <hr />
+        <a href="salary-bonus"><li>Salary Bonus</li></a>
+        <hr />
+        <a href="timesheet.html"><li>Time Sheet</li></a>
+        <hr />
+        <a href="expenses.html"><li>Expenses</li></a>
+        <hr />
+        <a href="targets.html"><li>Targets</li></a>
+        <hr />
+        <a href=""><li>Projects</li></a>
+        <hr />
+        <a href=""><li>Training</li></a>
+        <hr />
+        <a href="reports.html"><li>Reports</li></a>
+        <hr />
+        <a href="events.html"><li>Events</li></a>
+        <hr />
+        <a href="noticeboard.html"><li>Notice Board</li></a>
+      </ul>
+      </div>
+      
+
+    </ul>
+
+
+    
+
+
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand topbar static-top shadow" style="background-color: #074a98">
+          <p class="pt-5" style="font-size: 12px; color: white; position: absolute; right: 0; padding-right: 83px;"><a href="" style="color: white;">Logout</p></a>
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+          <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                <span class="mr-2 d-none d-lg-inline text-white small">Hello Michael</span>
+                
+                <img src="img/user.png" alt="userimage">
+              </a>
+             
+            </li>
+
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+
+
+       
+        <div class="row bg-white noticeboard pt-4 shadow">
+            <div class="container-fluid text-capitalize">
+              <h1 class="pl-3" style="font-weight: bold; color: #000000; font-size: 30px;">clients leads-roses PLC</h1>
+            </div>
+        </div>
+ <!-- Main Content -->
+ <div class="container vscd">
+    <div class="row text-capitalize"> 
+        <div class="col-6">
+        </div>
+        <div class="col-6">
+            <button style="border: solid; border-color:#000000; color: #000000; font-size: 17px;" class="pr-3 mr-5 mt-3 pl-3 pt-2 pb-2 px-2 float-right text-capitalize add ">add/edit/delete
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-pencil" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M11.293 1.293a1 1 0 0 1 1.414 0l2 2a1 1 0 0 1 0 1.414l-9 9a1 1 0 0 1-.39.242l-3 1a1 1 0 0 1-1.266-1.265l1-3a1 1 0 0 1 .242-.391l9-9zM12 2l2 2-9 9-3 1 1-3 9-9z"/>
+                    <path fill-rule="evenodd" d="M12.146 6.354l-2.5-2.5.708-.708 2.5 2.5-.707.708zM3 10v.5a.5.5 0 0 0 .5.5H4v.5a.5.5 0 0 0 .5.5H5v.5a.5.5 0 0 0 .5.5H6v-1.5a.5.5 0 0 0-.5-.5H5v-.5a.5.5 0 0 0-.5-.5H3z"/>
+                </svg>
+            </button>
+            
+        </div>
+        <h4 style="font-weight: bolder; color: #000000;" class="pl-5 text-capitalize Staffdata">staff data</h4>
+        
+    </div>
+    <div class="container ">
+       
+        <hr class="mt-0">
+        
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">surname</h5>
+            </div>
+            <div class="col-6">
+                <h5 class="pl-2">other names</h5>
+            </div>
+        </div>
+        
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">address</h5>
+            </div>
+            <div class="col-6">
+                <h5 class='pl-2'>city/state</h5>
+            </div>
+        </div>
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">postcode</h5>
+            </div>
+            <div class="col-6">
+                <h5 class="pl-2">country</h5>
+            </div>
+        </div>
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">phone no</h5>
+            </div>
+            <div class="col-6">
+                <h5 class="pl-2">email</h5>
+            </div>
+        </div>
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">emp start date</h5>
+            </div>
+            <div class="col-6">
+                <h5 class="pl-2">emp end date</h5>
+            </div>
+        </div>
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">bank name</h5>
+            </div>
+            <div class="col-6">
+                <h5 class="pl-2">account name</h5>
+            </div>
+        </div>
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">bank sort code</h5>
+            </div>
+            <div class="col-6">
+                <h5 class="pl-2">bank account no</h5>
+            </div>
+        </div>
+        <hr class="mt-0">
+       
+      
+    </div>
+    <div class="container pt-4">
+        <h5 class="pl-2 text-capitalize Staffdata">next of kin</h5>
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">surname</h5>
+            </div>
+            <div class="col-6">
+                <h5 class="pl-2">other names</h5>
+            </div>
+        </div>
+        
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">address</h5>
+            </div>
+            <div class="col-6">
+                <h5 class='pl-2'>city/state</h5>
+            </div>
+        </div>
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">postcode</h5>
+            </div>
+            <div class="col-6">
+                <h5 class="pl-2">country</h5>
+            </div>
+        </div>
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">phone no</h5>
+            </div>
+            <div class="col-6">
+                <h5 class="pl-2">email</h5>
+            </div>
+        </div>
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">relationship</h5>
+            </div>
+            <div class="col-6">
+                <h5 class="pl-2">ref taken</h5>
+            </div>
+        </div>
+        
+        <hr class="mt-0">
+       
+      
+    </div>
+    <div class="container mt-4">
+        <div class="row text-capitalize" style="background-color: #b3b3b3;">
+            <h5 class="pl-4 pt-4 ref">reference
+                <a href="" style="position: absolute; right: 0; margin-right: 15px;"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-down mr-5 vsda" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </a>
+            </h5>
+        </div>
+    </div>
+    <div class="container">
+       
+        <hr class="mt-0">
+        
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">surname</h5>
+            </div>
+            <div class="col-6">
+                <h5 class="pl-2">other names</h5>
+            </div>
+        </div>
+        
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">address</h5>
+            </div>
+            <div class="col-6">
+                <h5 class='pl-2'>city/state</h5>
+            </div>
+        </div>
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">postcode</h5>
+            </div>
+            <div class="col-6">
+                <h5 class="pl-2">country</h5>
+            </div>
+        </div>
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">phoneno</h5>
+            </div>
+            <div class="col-6">
+                <h5 class="pl-2">email</h5>
+            </div>
+        </div>
+        <hr class="mt-0">
+        <div class="row text-uppercase">
+            <div class="col-6">
+            <h5 class="pl-2">ref date</h5>
+            </div>
+            <div class="col-6">
+                <h5 class="pl-2">contact-email/phone call</h5>
+            </div>
+        </div>
+        <hr class="mt-0">
+       
+      
+    </div>
+    <div class="container mt-4">
+        <div class="row viewstaffrow text-capitalize" style="background-color: #b3b3b3;">
+            <h5 class="pl-4 pt-4 ">reference
+                <a href=""  style="position: absolute; right: 0; margin-right: 15px;"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-down mr-5 vsda" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                  </svg></a>
+            </h5>
+        </div>
+    </div>
+</div>
+
+
+    <!-- End of Main Content -->
+
+        
+      
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
+   <script src="js/jquery-ui-1.12.1/jquery-ui.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>

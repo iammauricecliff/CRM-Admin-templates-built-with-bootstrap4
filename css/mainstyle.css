@@ -1,0 +1,80 @@
+.rd{
+    background-color: #65b312;
+}
+
+.listing li {
+	transition: 1s;
+}
+
+.listing li:hover {
+	background-color: #3c6a0b;
+	
+}
+
+
+.listing li:active, .listing li a:active  {
+	background-color: #3c6a0b;
+}
+
+
+
+.listing a{
+	background-color: #3c6a0b;
+	color: white;
+}
+
+.listing a:hover{
+	text-decoration: none;
+	color: white;
+	background-color: #3c6a0b;
+}
+
+.security h5 {
+	font-size: 18px;
+}
+
+.bkstafft h5 {
+	color: black;
+	font-weight: bolder;
+	font-size: 17px;
+}
+
+.bkstaffd h5{
+	font-size: 16px;
+	color: black;
+}
+
+.bkstaffr {
+	margin-top: -2.5rem;
+}
+
+.stdnext  {
+	color: black;
+}
+
+.vscd h5 {
+	color: black;
+	font-size: 15px;
+}
+
+.bktarget {
+  margin-left: 15px;
+}
+
+.bkreports h5 {
+	color: #000000;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.bkevents h5 {
+	color: #000000;
+}
+
+.bkevents p {
+	color: #000000;
+}
+
+.bknoticeboard {
+	color: #000000;
+}

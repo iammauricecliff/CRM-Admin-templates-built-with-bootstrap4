@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    /* overflow: hidden; */
+    
+}
+
+.card-body{
+    width: 100%;
+}
+
+.lis{
+    width: 14.4rem;
+    background-color: #65b312;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #3c6a0b;
+}
+
+#links a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.co2{
+    background-color: #074a98;
+}
+
+#HR{
+    height: 42rem;
+}
+
+.lgg{
+    
+}
+
+.board{
+    color: white;
+    font-weight: bold;
+}
+
+.mic{
+    justify-content: flex-end;
+    display: flex;
+    color: white;
+}
+
+.logout{
+    margin-right: 23px;
+    margin-top: -20px;
+    
+}
+
+.dashboard{
+    height: 56px;
+    background-color: white;
+    font-weight: ;
+    font-size: 35px;
+}
+
+.card2{
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-left: 0px;
+}
+
+
+.crd1{
+    
+}
+
+
+.crd2{
+    
+}
+
+.logout a {
+    color: #1d2124;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    
+}
+
+.container-fluid{
+    font-weight: bolder;
+    
+}
+
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+  	font-size: 15px;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+h2{
+    color: #074a98;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+/* 
+.login{
+    background-color: #65b312;
+    color: white;
+    
+} */
+#Button {
+    background:  #65b312;
+    
+}
+
+#Button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* 
+.login:hover{
+    background-color: #65b312;
+    color: white;
+    
+} */
+
+.forgot a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.dlog{
+    margin: 7rem auto;
+}
+
+
+#login{
+    text-decoration: none;
+}
+
+.ui-widget.ui-widget-content {
+    border: 1px solid #c5c5c5;
+    width: 110%;
+    height: 100%;
+    margin-left: -0.6rem;
+}
+
+.ui-datepicker-prev, .ui-datepicker-next {
+  display: none;
+ 
+}
+
+.calender .ui-datepicker-header {
+    background: #65b445;
+   
+  }
+
+
+
+/* events */
+.eventC {
+   margin-top: -1.4rem;
+}
+
+.eventC h2 {
+    color: black;
+    font-weight: bold;
+}
+
+.addevent{
+    border: solid;
+    border-width: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.etitle h5 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ei1 {
+    margin-left: 64px;
+}
+
+.ei2 {
+    margin-left: 64px;
+}
+
+.ei3 {
+    margin-left: 64px;
+}
+
+
+.ei4 {
+    margin-left: 53px;
+}
+
+.ei1 {
+    margin-left: 69px; 
+}
+
+/* team targets */
+
+.column {
+    background-color: #808080;
+}
+
+.column p {
+    font-size: 13px;
+}
+
+.chkbx {
+    height: 100%;
+}
+
+
+.chkbx li {
+    font-size: 13px;
+   
+}
+
+.colum {
+    background-color: #b3b3b3;
+}
+
+.colum p {
+    font-size: 13px;
+}
+
+.blackT {
+    color: black;
+}
+
+.slackT {
+    color: black;
+}
+
+
